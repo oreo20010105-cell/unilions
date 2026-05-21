@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap');
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --font-sans: "Inter", "Noto Sans TC", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", "Noto Sans TC", sans-serif;
+  
+  --color-lions-orange: #f37021;
+  --color-lions-deep: #231f20;
+  --color-lions-gold: #c6a15b;
+}
+
+@layer base {
+  body {
+    @apply bg-[#f8f9fa] text-lions-deep;
+  }
+}
+

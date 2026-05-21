@@ -1,0 +1,6 @@
+{
+  "name": "府城獅子營 在地店家歡慶2000勝",
+  "description": "提供台南店家優惠活動分類查找，支援地區、類型及球員款式篩選。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
